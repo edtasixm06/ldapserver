@@ -10,7 +10,7 @@ RUN mkdir /opt/docker
 COPY * /opt/docker/
 RUN chmod +x /opt/docker/install.sh /opt/docker/startup.sh
 WORKDIR /opt/docker
-EXPORT 389
+EXPOSE 389
 CMD ["/opt/docker/startup.sh"]
 
 
