@@ -10,7 +10,9 @@ visor gràfic que permet veure tot el que fa el host, quines imatges té, quines
 volumes, containers, etc.
 
 Documentació:
+
 [Portainer](https://portainer.io/)
+
 [/var/run/docker.sock](https://medium.com/lucjuggery/about-var-run-docker-sock-3bfd276e12fd)
 
 Ordres servidor i client:
