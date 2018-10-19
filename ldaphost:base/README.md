@@ -9,7 +9,7 @@ host client ldap, ataca ldapserver edt.org
 Comandes:
 
  * **server** docker run --rm --network netldap -h ldapserver --name ldapserver -p 389:389 -d ldapserver:tmp
- * **host** docker run --network netldap ---name ldaphost -rm -it fedora:27 /bin/bash
+ * **host** docker run --network netldap -h ldaphost --name ldaphost --rm -it ldaphost:base
 
 calen els --name per associar-lo realment en la netldap, mirar-ho amb inspect
 
