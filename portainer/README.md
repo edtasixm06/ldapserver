@@ -10,13 +10,16 @@ visor gràfic que permet veure tot el que fa el host, quines imatges té, quines
 volumes, containers, etc.
 
 Documentació:
-[Portainer](https://medium.com/lucjuggery/about-var-run-docker-sock-3bfd276e12fd)
+[Portainer](https://portainer.io/)
+[/var/run/docker.sock](https://medium.com/lucjuggery/about-var-run-docker-sock-3bfd276e12fd)
 
 Ordres servidor i client:
 
- * # docker container run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+```
+# docker container run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
 
- * # navegador → localhost:9000
+# navegador → localhost:9000
+```
 
 A /var/run/docker.sock és un socket unix on escolta el daemon del docker.
 
