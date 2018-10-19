@@ -5,5 +5,11 @@
 # Client:
 #  connectar al navegador a localhost:4000
 # ----------------------------------------
-docker run --rm -it -p 4000:4000 docs/docker.github.io:v1.12
+
+# documentació v1.12
+docker run --rm -d -p 4000:4000 docs/docker.github.io:v1.12
+
+
+# documentació latest
+# docker run -d -p 4000:4000 docs/docker.github.io:latest
 
