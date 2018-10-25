@@ -1,8 +1,8 @@
 # schema futbolista:
 #            equip, dorsal, web, foto, lesionat
 # @edt ASIX-M06 2018-2019
-# Cas A: objecte structural derivat de inetOrgperson
-# implica hereta camps obligatoris cn i sn de person
+# casB Objecte structural standalona (derivat de TOP)
+#
 
 attributetype (1.1.2.1.1 NAME 'xequip'
   EQUALITY caseIgnoreMatch
@@ -28,11 +28,17 @@ attributetype (1.1.2.1.5 NAME 'xlesionat'
   SYNTAX  1.3.6.1.4.1.1466.115.121.1.7 
   SINGLE-VALUE)
 
+attributetype (1.1.2.1.6 NAME 'xfitxa'
+  EQUALITY integerMatch
+  SYNTAX  1.3.6.1.4.1.1466.115.121.1.27
+  SINGLE-VALUE)
+
+
 objectclass (1.1.2.2.1 NAME 'xfutbolista'
   DESC 'fumbuleros'
-  SUP inetOrgPerson
+  SUP TOP
   STRUCTURAL
-  MUST xequip
+  MUST ( xfitxa $ xequip )
   MAY ( xdorsal $ xweb $ xfoto $ xlesionat) )
 
 
