@@ -1,0 +1,6 @@
+dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
+changetype: modify
+add: mail
+mail: pereperepere
+
+
