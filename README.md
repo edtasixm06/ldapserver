@@ -3,7 +3,9 @@
 ## @edt ASIX M06 2018-2019
 
 Repositori amb les imatges de ldapserver.
+
 Podeu trobar les imatges docker al Dockehub de [edtasixm06](https://hub.docker.com/u/edtasixm06/)
+
 ASIX M06-ASO Escola del treball de barcelona
 
 ### Imatges:
