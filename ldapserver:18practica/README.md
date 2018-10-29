@@ -8,7 +8,7 @@ Exercici per practicar tots els conceptes treballats.
 
 
 ### Documentació:
-Consultar la documentació de Openldap: Administator’s guide capítol 13 Schema specification.
+Consultar la documentació de Openldap: [Administator’s guide](https://www.openldap.org/doc/admin24/) capítol 13 [Schema specification](https://www.openldap.org/doc/admin24/schema.html).
 
 ### Part A
 
