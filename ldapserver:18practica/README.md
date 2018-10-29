@@ -34,9 +34,9 @@ Implementar a la base de dades edt.org els següents canvis:
 
 ### Part B
 
- 6 Desenvolupar tot l’apartat anterior en un directori **ldapserver:18practica** dins del repositori GitHub ldapserver. Pujar el contingut a GutHub.
+ 6 Desenvolupar tot l’apartat anterior en un directori **ldapserver:18practica** dins del repositori **GitHub ldapserver**. Pujar el contingut a GitHub.
 
- 7 Automatitzar GitHub / DockerHub per generar un **Authomated Build** de la imatge ldapserver:18practica dins de dockerhub.
+ 7 Automatitzar GitHub / DockerHub per generar un **Authomated Build** de la imatge ldapserver:18practica dins de **DockerHub**.
 
 
 
