@@ -16,6 +16,8 @@ ASIX M06-ASO Escola del treball de barcelona
 * **ldapserver:18acl** exemple de ldapserver amb bd config i acls
 * **ldapserver:18dataDBcn** edt.org, all-data, cn, detach, config
 * **ldapserver:18schema** incorpora schema 'futbolista' (creació schema/object/atributs)
+* **ldapserver:18group** incorpora els posixGroup dels usuaris (per memberUid)
+* **data** repositori d'exemples de dades ldap.
 
 #### Host
 
