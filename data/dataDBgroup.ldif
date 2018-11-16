@@ -526,7 +526,7 @@ userPassword: {SHA}M/knNE4HngDT+kXYgzsE5zUiPuw=
 # ---------- Grups ------------------------------
 
 dn: ou=grups,dc=edt,dc=org
-ou: grups
+ou: groups
 description: Container per a grups
 objectclass: organizationalunit
 
@@ -534,78 +534,77 @@ dn: cn=cup,ou=grups,dc=edt,dc=org
 cn: cup
 gidNumber: 0
 description: Grup de la CUP, es a dir, els root del systema
-memberUid: uid=admin,ou=usuaris,dc=edt,dc=org
+memberUid: admin
 objectclass: posixGroup
 
 dn: cn=admin,ou=grups,dc=edt,dc=org
 cn: admin
 cn: system
-gidNumber: uid=pere,ou=usuaris,dc=edt,dc=org
+gidNumber: 10
 description: Grup de administracio system
-memberUid: uid=admin,ou=usuaris,dc=edt,dc=org
+memberUid: admin
 objectclass: posixGroup
 
 dn: cn=alumnes,ou=grups,dc=edt,dc=org
 cn: alumnes
 gidNumber: 600
 description: Grup de alumnes
-memberUid: uid=anna,ou=usuaris,dc=edt,dc=org
-memberuid: uid=marta,ou=usuaris,dc=edt,dc=org
-memberUid: uid=Jordi,ou=usuaris,dc=edt,dc=org
+memberUid: anna
+memberuid: marta
+memberUid: Jordi
 objectclass: posixGroup
 
 dn: cn=profes,ou=grups,dc=edt,dc=org
 cn: profes
 gidNumber: 100
 description: Grup de profes
-memberUid: uid=pau,ou=usuaris,dc=edt,dc=org
-memberUid: uid=pere,ou=usuaris,dc=edt,dc=org
-memberUid: uid=pere,ou=usuaris,dc=edt,dc=org
+memberUid: pau
+memberUid: pere
 objectclass: posixGroup
 
 dn: cn=1wiaw,ou=grups,dc=edt,dc=org
 cn: 1wiaw
 gidNumber: 650
 description: Grup de 1wiaw
-memberUid: uid=mao,o=asia,ou=clients,dc=edt,dc=org
-memberUid: uid=ho,o=asia,ou=clients,dc=edt,dc=org
-memberUid: uid=hirohito,o=asia,ou=clients,dc=edt,dc=org
-memberUid: uid=nelson,o=africa,ou=clients,dc=edt,dc=org
-memberUid: uid=robert,o=africa,ou=clients,dc=edt,dc=org
-memberUid: uid=ali,o=africa,ou=clients,dc=edt,dc=org
+memberUid: mao
+memberUid: ho
+memberUid: hirohito
+memberUid: nelson
+memberUid: robert
+memberUid: ali
 objectclass: posixGroup
 
 dn: cn=2wiaw,ou=grups,dc=edt,dc=org
 cn: 2wiaw
 gidNumber: 651
 description: Grup de 2wiaw
-memberUid: uid=konrad,o=eu,o=europa,ou=clients,dc=edt,dc=org
-memberUid: uid=humphrey,o=eu,o=europa,ou=clients,dc=edt,dc=org
-memberUid: uid=carles,o=eu,o=europa,ou=clients,dc=edt,dc=org
-memberUid: uid=francisco,o=noneu,o=europa,ou=clients,dc=edt,dc=org
-memberUid: uid=vladimir,o=noneu,o=europa,ou=clients,dc=edt,dc=org
-memberUid: uid=jorge,o=noneu,o=europa,ou=clients,dc=edt,dc=org
+memberUid: konrad
+memberUid: humphrey
+memberUid: carles
+memberUid: francisco
+memberUid: vladimir
+memberUid: jorge
 objectclass: posixGroup
 
 dn: cn=1asix,ou=grups,dc=edt,dc=org
 cn: 1asix
 gidNumber: 610
 description: Grup de 1asix
-memberUid: uid=user01,ou=usuaris,dc=edt,dc=org
-memberUid: uid=user02,ou=usuaris,dc=edt,dc=org
-memberUid: uid=user03,ou=usuaris,dc=edt,dc=org
-memberUid: uid=user04,ou=usuaris,dc=edt,dc=org
-memberUid: uid=user05,ou=usuaris,dc=edt,dc=org
+memberUid: user01
+memberUid: user02
+memberUid: user03
+memberUid: user04
+memberUid: user05
 objectclass: posixGroup
 
 dn: cn=2asix,ou=grups,dc=edt,dc=org
 cn: 2asix
 gidNumber: 611
 description: Grup de 2asix
-memberUid: uid=user06,ou=usuaris,dc=edt,dc=org
-memberUid: uid=user07,ou=usuaris,dc=edt,dc=org
-memberUid: uid=user08,ou=usuaris,dc=edt,dc=org
-memberUid: uid=user09,ou=usuaris,dc=edt,dc=org
-memberUid: uid=user10,ou=usuaris,dc=edt,dc=org
+memberUid: user06
+memberUid: user07
+memberUid: user08
+memberUid: user09
+memberUid: user10
 objectclass: posixGroup
 
