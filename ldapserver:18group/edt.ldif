@@ -526,7 +526,7 @@ userPassword: {SHA}M/knNE4HngDT+kXYgzsE5zUiPuw=
 # ---------- Grups ------------------------------
 
 dn: ou=grups,dc=edt,dc=org
-ou: grups
+ou: groups
 description: Container per a grups
 objectclass: organizationalunit
 
@@ -540,7 +540,7 @@ objectclass: posixGroup
 dn: cn=admin,ou=grups,dc=edt,dc=org
 cn: admin
 cn: system
-gidNumber: uid=pere,ou=usuaris,dc=edt,dc=org
+gidNumber: 10
 description: Grup de administracio system
 memberUid: uid=admin,ou=usuaris,dc=edt,dc=org
 objectclass: posixGroup
